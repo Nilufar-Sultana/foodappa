@@ -27,3 +27,15 @@ div ul a{
     width: 90%;
     height: 300px;
 }
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+.item button{
+    padding:10px 30px;
+    background-color: rosybrown;
+    border-radius: 5px;
+    font-size: 2em;
+    display: block;
+    margin: auto;
+}
