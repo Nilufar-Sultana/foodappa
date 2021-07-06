@@ -11,3 +11,10 @@ div{
     display: grid;
     place-items: center;
 }
+div ul{
+        list-style-type: none;
+}
+div ul a{
+    display: inline-block;
+    padding: 20px;
+}
