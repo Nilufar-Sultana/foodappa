@@ -6,3 +6,8 @@ h1{
 h2{
     text-align: center;
 }
+div{
+    background-color: pink; 
+    display: grid;
+    place-items: center;
+}
