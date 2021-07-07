@@ -7,15 +7,13 @@ h1{
 h2{
     text-align: center;
 }
-header {
+.section-color {
     background-color: pink; 
-    display: grid;
-    place-items: center;
 }
-heading-menu ul{
+.heading-menu ul{
         list-style-type: none;
 }
-heading-menu ul a{
+.heading-menu ul a{
     display: inline-block;
     padding: 20px;
 }
