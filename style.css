@@ -26,7 +26,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: rgb(255, 189, 103);
+    background-color: rgb(245, 173, 66);
     padding: 10px 40px;
     border-radius: 5px;
 }
@@ -43,6 +43,8 @@ section{
 .heading-menu{
     text-align: center;
     background-color: palevioletred;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .heading-menu ul{
@@ -54,6 +56,9 @@ section{
     color: black;
     border: 1px solid;
     padding: 20px;
+}
+.top-banner{
+    background-image: url(image/images/top-banner.png);
 }
 .item{
     display: grid;
