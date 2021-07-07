@@ -7,8 +7,12 @@ h1{
 h2{
     text-align: center;
 }
-.section-color {
-    background-color: pink; 
+body {
+    margin: 0;
+    padding: 0;
+}
+.section-color{
+    background-image: linear-gradient(rgb(255, 101, 127)  pink);
 }
 .heading-menu ul{
         list-style-type: none;
