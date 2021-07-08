@@ -55,12 +55,33 @@ section{
     background-color:seashell;
     color: black;
     border: 1px solid;
-    padding: 20px;
+    padding: 5px;
+    text-decoration: grey;
 }
 .biryani{
+    display:grid;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
+    margin top: 5%;
     padding-left: 20px;
-    box-shadow: 10px 10px grey;
+    padding-right: 20px;
+    padding-top:20px
+    box-shadow: 10px 10px 40px;
+}
+.biryani img{
+    width: 100%;
+    height: 300px; 
+
+}
+.biryani h4{
+    padding: 5px;
+    text-align: center;
+}
+.biryani button{
+    padding: 10px 30px;
+    border: none;
+    display: block;
+    border-radius: 4px;
+    background-color: hotpink;
 }
