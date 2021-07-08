@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .no-background{
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
@@ -9,6 +13,7 @@ h1{
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(126, 16, 126);
+    margin: 0;
 }
 .color{
     color: black;
@@ -17,34 +22,62 @@ h1{
 h2{
     text-align: center;
 }
-body {
-    margin: 0;
-    padding: 0;
-}
 section{
     display: flex;
+    margin-bottom: 100px;
+}
+.top-banner{
+    background-image: url(image/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.order{
+    width: 100%;
+}
+.order-now{
+    text-decoration: none;
+    text-align: center;
+    padding:10px 40px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 5px;
 }
 .link-button{
     text-decoration: none;
     background-color: rgb(245, 173, 66);
-    padding: 10px 40px;
+    padding:10px 40px;
     border-radius: 5px;
+}
+.link-button2{
+    text-decoration:none;
+    background-color:pink;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.middle-banner{
+    width: 50%;
+}
+.middle-banner img{
+    width: 70%;
 }
 .size{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
 }
 .size img{
-    width: 50%;
+    width: 70%;
 }
 .section-color{
     background-image: linear-gradient(rgb(255, 101, 127)  pink);
 }
 .heading-menu{
+    display: block;
     text-align: center;
-    background-color: palevioletred;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    background-color: rgb(228, 112, 151);
+    padding: 5px 2px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .heading-menu ul{
@@ -52,36 +85,37 @@ section{
 }
 .heading-menu ul a{
     display: inline-block;
-    background-color:seashell;
     color: black;
-    border: 1px solid;
     padding: 5px;
     text-decoration: grey;
 }
-.biryani{
-    display:grid;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin top: 5%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top:20px
-    box-shadow: 10px 10px 40px;
+.biriyani{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 20px;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 10px;
 }
 .biryani img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    height: 300px; 
-
+    height: 500px; 
+    object-fit: cover;
 }
 .biryani h4{
     padding: 5px;
     text-align: center;
 }
 .biryani button{
-    padding: 10px 30px;
+    padding: 5px 30px;
     border: none;
-    display: block;
     border-radius: 4px;
     background-color: hotpink;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    margin:0 auto;
 }
