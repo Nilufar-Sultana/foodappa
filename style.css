@@ -92,10 +92,9 @@ section{
 .biriyani{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 30px 20px;
+    padding: 30px 20px 30px 20px;
     column-gap: 30px;
     row-gap: 30px;
-    margin-left: 10px;
 }
 .biryani img{
     display: grid;
@@ -118,4 +117,30 @@ section{
     text-align: center;
     display: block;
     margin:0 auto;
+}
+.footer{
+    text-align: center;
+    box-sizing: border-box;
+    background: pink;
+    font-family: sans-serif;
+}
+.social-media{
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+.social-media a{
+    text-align: center;
+    font-size: 14px;
+}
+.footer-bottom{
+    background: rgb(223, 80, 192);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 5px 0;
+    word-spacing: 3px;
+}
+.footer-bottom span{
+    color: gray;
 }
